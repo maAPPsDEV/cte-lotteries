@@ -12,6 +12,7 @@ const deployFunc: DeployFunction = async (hre) => {
     from: deployer,
     args: [],
     log: true,
+    value: ethers.utils.parseEther("1"),
   });
 };
 
