@@ -13,7 +13,7 @@
     "compile": "hardhat compile",
     "typecheck": "tsc --noEmit",
     "lint": "solhint contracts/**/*.sol && tsc && eslint \"**/*.{js,ts}\" && prettier --check **/*.sol **/*.json **/*.ts **/*.js",
-    "lint:fix": "tsc && pretty-quick --pattern \"**/*.*(sol|json|js|ts)\" --verbose && solhint contracts/**/*.sol --fix && tsc && eslint **/*.{js,ts} --fix",
+    "lint:fix": "tsc && pretty-quick --pattern \"**/*.*(sol|json|js|ts)\" --verbose && solhint contracts/**/*.sol --fix && tsc && eslint \"**/*.{js,ts}\" --fix",
     "build": "hardhat compile",
     "test": "hardhat test",
     "deploy": "hardhat deploy"
